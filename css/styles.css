@@ -1,0 +1,198 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v51-cyrillic_latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v51-cyrillic_latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v51-cyrillic_latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v21-cyrillic_latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v21-cyrillic_latin-700.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-light: #ffffff;
+  --color-primary-dark: #011c44;
+  --color-brand-blue: #2b7fff;
+  --color-official-info: #747272;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+footer {
+  background-color: var(--color-primary-dark);
+}
+
+.header-link {
+  font-size: 18px;
+  color: var(--color-primary-dark);
+}
+
+.header-link:hover {
+  color: var(--color-brand-blue);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.hero-title {
+  color: var(--color-brand-blue);
+  font-family: Play, sans-serif;
+  font-weight: 700;
+  font-size: 140px;
+  text-transform: capitalize;
+  line-height: 0.8;
+  text-align: left;
+}
+
+.section-title {
+  font-family: play, sans-serif;
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+.about-us {
+  text-align: left;
+}
+
+.title-accent {
+  color: var(--color-brand-blue);
+}
+
+.main-action-button {
+  padding: 16px 32px;
+  background-color: #2b7fff;
+  color: var(--color-primary-light);
+  border: 0;
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.main-action-button:hover {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+  border: 2px solid var(--color-brand-blue);
+}
+
+.discription-to-button {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.advantages-text {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.product-title {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.form-title {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.form {
+  color: var(--color-official-info);
+}
+
+.footer-link {
+  font-size: 18px;
+  color: var(--color-primary-light);
+}
+
+.footer-link:hover {
+  color: var(--color-brand-blue);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.address-link {
+  color: var(--color-primary-light);
+  font-size: 18px;
+}
+
+.address-copyright {
+  color: var(--color-official-info);
+  font-size: 13px;
+}
